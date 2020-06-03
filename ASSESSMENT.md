@@ -23,11 +23,11 @@
 
 | 1. Criteria - Artworks list                                                    | Points | Self | Evaluator |
 | ------------------------------------------------------------------------------ | ------ | ---- | --------- |
-| The frontend route `/` displays a list of artworks                             | 1      |      |           |
-| The artworks are fetched from the server                                       | 1      |      |           |
+| The frontend route `/` displays a list of artworks                             | 1      | 1    |           |
+| The artworks are fetched from the server                                       | 1      | 1    |           |
 | The artworks are displayed with their number of bids they have in the database | 2      |      |           |
-| An array of artworks is stored and managed by redux                            | 1      |      |           |
-| A selectors and actions are defined in a seperate files                        | 1      |      |           |
+| An array of artworks is stored and managed by redux                            | 1      | 1    |           |
+| A selectors and actions are defined in a seperate files                        | 1      | 1    |           |
 | Each artwork has a `View details` button, it links to a artwork's details      | 1      |      |           |
 | Total                                                                          | 7      |      |           |
 
