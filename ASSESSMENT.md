@@ -1,25 +1,25 @@
 ### Self assessment
 
-| Section                      | Max Points | Self | Evaluator |
-| ---------------------------- | ---------- | ---- | --------- |
-| 0 Migrations, models & seeds | 10         | 0/10 | 0/10      |
-| 1 Artworks list              | 7          | 0/7  | 0/7       |
-| 2 Artwork details            | 4          | 0/4  | 0/4       |
-| 3 Giving hearts              | 5          | 0/5  | 0/5       |
-| 4 Bidding                    | 11         | 0/11 | 0/11      |
-| 5 Posting an artwork         | 10         | 0/10 | 0/10      |
-| 6 Signing up as an artist    | 7          | 0/7  | 0/7       |
-| 7 Finishing up               | 6          | 0/6  | 0/6       |
-| Total                        | 60         | 0/60 | 0/60      |
+| Section                      | Max Points | Self  | Evaluator |
+| ---------------------------- | ---------- | ----- | --------- |
+| 0 Migrations, models & seeds | 10         | 10/10 | 0/10      |
+| 1 Artworks list              | 7          | 0/7   | 0/7       |
+| 2 Artwork details            | 4          | 0/4   | 0/4       |
+| 3 Giving hearts              | 5          | 0/5   | 0/5       |
+| 4 Bidding                    | 11         | 0/11  | 0/11      |
+| 5 Posting an artwork         | 10         | 0/10  | 0/10      |
+| 6 Signing up as an artist    | 7          | 0/7   | 0/7       |
+| 7 Finishing up               | 6          | 0/6   | 0/6       |
+| Total                        | 60         | 0/60  | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
-| Server contains sequelize models for Artwork and Bid                       | 2      |      |           |
-| Server contains migrations to create artworks and bids tables              | 2      |      |           |
-| required fields for artworks and bids are validated in models & migrations | 2      |      |           |
-| User, Artwork and Bid models are correctly related                         | 2      |      |           |
-| Seeders are present to create at least 3 artworks and 5 bids               | 2      |      |           |
-| Total                                                                      | 10     |      |           |
+| Server contains sequelize models for Artwork and Bid                       | 2      | 2    |           |
+| Server contains migrations to create artworks and bids tables              | 2      | 2    |           |
+| required fields for artworks and bids are validated in models & migrations | 2      | 2    |           |
+| User, Artwork and Bid models are correctly related                         | 2      | 2    |           |
+| Seeders are present to create at least 3 artworks and 5 bids               | 2      | 2    |           |
+| Total                                                                      | 10     | 10   |           |
 
 | 1. Criteria - Artworks list                                                    | Points | Self | Evaluator |
 | ------------------------------------------------------------------------------ | ------ | ---- | --------- |
