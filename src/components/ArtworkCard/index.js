@@ -12,7 +12,8 @@ const ArtworkCard = (props) => {
       </Link>
       <br />
       Hearts: {props.hearts} {"         "}
-      {/* Bids: {props.bids} */}
+      Bids: {props.bids.length}
+      {/*  */}
     </div>
   );
 };

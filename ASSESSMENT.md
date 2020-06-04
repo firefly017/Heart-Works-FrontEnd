@@ -3,13 +3,13 @@
 | Section                      | Max Points | Self   | Evaluator |
 | ---------------------------- | ---------- | ------ | --------- |
 | 0 Migrations, models & seeds | 10         | 10/10  | 0/10      |
-| 1 Artworks list              | 7          | 5/7    | 0/7       |
+| 1 Artworks list              | 7          | 7/7    | 0/7       |
 | 2 Artwork details            | 4          | 2/4    | 0/4       |
 | 3 Giving hearts              | 5          | 0/5    | 0/5       |
 | 4 Bidding                    | 11         | 0/11   | 0/11      |
 | 5 Posting an artwork         | 10         | 2.5/10 | 0/10      |
 | 6 Signing up as an artist    | 7          | 0/7    | 0/7       |
-| 7 Finishing up               | 6          | 0/6    | 0/6       |
+| 7 Finishing up               | 6          | 5/6    | 0/6       |
 | Total                        | 60         | 0/60   | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
@@ -25,11 +25,11 @@
 | ------------------------------------------------------------------------------ | ------ | ---- | --------- |
 | The frontend route `/` displays a list of artworks                             | 1      | 1    |           |
 | The artworks are fetched from the server                                       | 1      | 1    |           |
-| The artworks are displayed with their number of bids they have in the database | 2      |      |           |
+| The artworks are displayed with their number of bids they have in the database | 2      | 2    |           |
 | An array of artworks is stored and managed by redux                            | 1      | 1    |           |
 | A selectors and actions are defined in a seperate files                        | 1      | 1    |           |
 | Each artwork has a `View details` button, it links to a artwork's details      | 1      | 1    |           |
-| Total                                                                          | 7      | 5    |           |
+| Total                                                                          | 7      | 7    |           |
 
 | 2. Criteria - Artwork details                                                  | Points | Self | Evaluator |
 | ------------------------------------------------------------------------------ | ------ | ---- | --------- |
@@ -91,9 +91,9 @@
 
 | 7. Criteria - Finishing up                                                 | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
-| Student performed an accurate self assessment (max off by + or - 7 points) | 2      |      |           |
-| Student can reflect on their process by writing a reflection of ~200 words | 2      |      |           |
-| Student has regularly committed changes (at least 1 commit per feature)    | 0.5    |      |           |
-| Student has written clear commit messages                                  | 1      |      |           |
-| Student has pushed their repository using git                              | 0.5    |      |           |
-| Total                                                                      | 6      |      |           |
+| Student performed an accurate self assessment (max off by + or - 7 points) | 2      | 1    |           |
+| Student can reflect on their process by writing a reflection of ~200 words | 2      | 2    |           |
+| Student has regularly committed changes (at least 1 commit per feature)    | 0.5    | 0.5  |           |
+| Student has written clear commit messages                                  | 1      | 1    |           |
+| Student has pushed their repository using git                              | 0.5    | 0.5  |           |
+| Total                                                                      | 6      | 5    |           |
