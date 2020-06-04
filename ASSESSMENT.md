@@ -82,8 +82,8 @@
 
 | 6. Criteria - Signing up as an artist                                              | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| A seperate migration is created to add a column `isArtist` to our users table      | 3      |      |           |
-| A checkbox is added to the signup form                                             | 1      |      |           |
+| A seperate migration is created to add a column `isArtist` to our users table      | 3      | 3(?) |           |
+| A checkbox is added to the signup form                                             | 1      | 1    |           |
 | The `signUp` action also sends a value for `isArtist` when posting to the server   | 1      |      |           |
 | When the checkbox is checked on signup, the user created has `isArtist: true`      | 1      |      |           |
 | When the checkbox is not checked on signup, the user created has `isArtist: false` | 1      |      |           |
