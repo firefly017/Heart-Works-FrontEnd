@@ -16,3 +16,22 @@ export const fetchArtworks = () => async (dispatch, getState) => {
     console.log(error);
   }
 };
+export const giveHeart = (artworksId, hearts) => async (dispatch, getState) => {
+  try {
+    console.log("giveheart store id =" + artworksId + " hearts =" + hearts);
+    const response = await axios.get(
+      "http://localhost:4000/artworks/" + artworksId
+    );
+    console.log(response.data);
+    var curArt = response.data;
+    curArt.hearts = hearts;
+    console.log(curArt.hearts);
+    await axios.patch("http://localhost:4000/artworks/" + artworksId, curArt);
+
+    // make axios call to our endpoint
+    // dispatch saveArtworks.
+    //dispatch(saveArtworks(response.data));
+  } catch (error) {
+    console.log(error);
+  }
+};

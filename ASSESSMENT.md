@@ -5,12 +5,12 @@
 | 0 Migrations, models & seeds | 10         | 10/10   | 0/10      |
 | 1 Artworks list              | 7          | 7/7     | 0/7       |
 | 2 Artwork details            | 4          | 2/4     | 0/4       |
-| 3 Giving hearts              | 5          | 0/5     | 0/5       |
+| 3 Giving hearts              | 5          | 5/5     | 0/5       |
 | 4 Bidding                    | 11         | 0/11    | 0/11      |
 | 5 Posting an artwork         | 10         | 2.5/10  | 0/10      |
 | 6 Signing up as an artist    | 7          | 7/7     | 0/7       |
 | 7 Finishing up               | 6          | 5/6     | 0/6       |
-| Total                        | 60         | 33.5/60 | 0/60      |
+| Total                        | 60         | 38.5/60 | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -41,13 +41,13 @@
 
 | 3. Criteria - Giving hearts                                                                  | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| On the artwork's detail page we see a button with `give heart`                               | 1      |      |           |
-| When the `give heart` button is clicked the number of hearts changes on the page             | 1      |      |           |
-| Clicking the `give heart` button sends a PATCH request to the server                         | 1      |      |           |
-| Clicking the `give heart` button updates the `hearts` property of an artwork in the database | 1      |      |           |
-| The number of hearts an artwork has is also updated in the list of artworks on `/`           | 1      |      |           |
-| You have to refresh to see the number of hearts update                                       | -1     |      |           |
-| Total                                                                                        | 5      |      |           |
+| On the artwork's detail page we see a button with `give heart`                               | 1      | 1    |           |
+| When the `give heart` button is clicked the number of hearts changes on the page             | 1      | 1    |           |
+| Clicking the `give heart` button sends a PATCH request to the server                         | 1      | 1    |           |
+| Clicking the `give heart` button updates the `hearts` property of an artwork in the database | 1      | 1    |           |
+| The number of hearts an artwork has is also updated in the list of artworks on `/`           | 1      | 1    |           |
+| You have to refresh to see the number of hearts update                                       | -1     | 0    |           |
+| Total                                                                                        | 5      | 5    |           |
 
 | 4. Criteria - Bidding                                                                   | Points | Self | Evaluator |
 | --------------------------------------------------------------------------------------- | ------ | ---- | --------- |

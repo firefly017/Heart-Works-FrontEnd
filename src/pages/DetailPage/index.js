@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -10,9 +10,6 @@ const DetailPage = (params) => {
   const artworks = useSelector(getArtworks);
   const route_parameters = useParams();
   console.log("is artwork detail loading?" + route_parameters.artwork_id);
-  //   useEffect(() => {
-  //     dispatch(fetchArtworks());
-  //   }, [dispatch]);
   const selectedArtWorks = artworks.filter((artwork) => {
     return artwork.id == route_parameters.artwork_id;
   });
@@ -20,7 +17,6 @@ const DetailPage = (params) => {
     selectedArtWorks.map((artwork) => (
       <DetailCard key={artwork.id} {...artwork} />
     ));
-
   return <div>{artworksToRender()}</div>;
 };
 
