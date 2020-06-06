@@ -1,16 +1,16 @@
 ### Self assessment
 
-| Section                      | Max Points | Self    | Evaluator |
-| ---------------------------- | ---------- | ------- | --------- |
-| 0 Migrations, models & seeds | 10         | 10/10   | 0/10      |
-| 1 Artworks list              | 7          | 7/7     | 0/7       |
-| 2 Artwork details            | 4          | 4/4     | 0/4       |
-| 3 Giving hearts              | 5          | 5/5     | 0/5       |
-| 4 Bidding                    | 11         | 0/11    | 0/11      |
-| 5 Posting an artwork         | 10         | 2.5/10  | 0/10      |
-| 6 Signing up as an artist    | 7          | 7/7     | 0/7       |
-| 7 Finishing up               | 6          | 6/6     | 0/6       |
-| Total                        | 60         | 41.5/60 | 0/60      |
+| Section                      | Max Points | Self  | Evaluator |
+| ---------------------------- | ---------- | ----- | --------- |
+| 0 Migrations, models & seeds | 10         | 10/10 | 0/10      |
+| 1 Artworks list              | 7          | 7/7   | 0/7       |
+| 2 Artwork details            | 4          | 4/4   | 0/4       |
+| 3 Giving hearts              | 5          | 5/5   | 0/5       |
+| 4 Bidding                    | 11         | 0/11  | 0/11      |
+| 5 Posting an artwork         | 10         | 3/10  | 0/10      |
+| 6 Signing up as an artist    | 7          | 7/7   | 0/7       |
+| 7 Finishing up               | 6          | 6/6   | 0/6       |
+| Total                        | 60         | 42/60 | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -67,7 +67,7 @@
 | 5. Criteria - Posting an artwork                                        | Points | Self | Evaluator |
 | ----------------------------------------------------------------------- | ------ | ---- | --------- |
 | There is a link with `Start an auction` in the navbar                   | 0.5    | 0.5  |           |
-| A user can only see this link when you are logged in                    | 0.5    |      |           |
+| A user can only see this link when you are logged in                    | 0.5    | 0.5  |           |
 | A user can only see this if the user object contains: `isArtist: true`  | 1      |      |           |
 | Clicking `Start an auction` links to a page with a form                 | 1      | 1    |           |
 | The form contains inputs for title, minimum bid & imageUrl              | 1      | 1    |           |
@@ -78,11 +78,11 @@
 | The artwork saved in the database has the correct `userId`              | 1      |      |           |
 | The user sees a success message if the artwork was posted successfully  | 1      |      |           |
 | The success message is an alert, confirm or prompt popup or console.log | -1     |      |           |
-| Total                                                                   | 10     | 2.5  |           |
+| Total                                                                   | 10     | 3    |           |
 
 | 6. Criteria - Signing up as an artist                                              | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| A seperate migration is created to add a column `isArtist` to our users table      | 3      | 3(?) |           |
+| A seperate migration is created to add a column `isArtist` to our users table      | 3      | 3    |           |
 | A checkbox is added to the signup form                                             | 1      | 1    |           |
 | The `signUp` action also sends a value for `isArtist` when posting to the server   | 1      | 1    |           |
 | When the checkbox is checked on signup, the user created has `isArtist: true`      | 1      | 1    |           |
