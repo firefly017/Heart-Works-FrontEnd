@@ -4,13 +4,13 @@
 | ---------------------------- | ---------- | ------- | --------- |
 | 0 Migrations, models & seeds | 10         | 10/10   | 0/10      |
 | 1 Artworks list              | 7          | 7/7     | 0/7       |
-| 2 Artwork details            | 4          | 2/4     | 0/4       |
+| 2 Artwork details            | 4          | 4/4     | 0/4       |
 | 3 Giving hearts              | 5          | 5/5     | 0/5       |
 | 4 Bidding                    | 11         | 0/11    | 0/11      |
 | 5 Posting an artwork         | 10         | 2.5/10  | 0/10      |
 | 6 Signing up as an artist    | 7          | 7/7     | 0/7       |
-| 7 Finishing up               | 6          | 5/6     | 0/6       |
-| Total                        | 60         | 38.5/60 | 0/60      |
+| 7 Finishing up               | 6          | 6/6     | 0/6       |
+| Total                        | 60         | 41.5/60 | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -35,9 +35,9 @@
 | ------------------------------------------------------------------------------ | ------ | ---- | --------- |
 | The frontend route `/artworks/:id` displays a detail page for an artwork       | 1      | 1    |           |
 | The artworks are displayed with a title, image and the number of hearts it has | 1      | 1    |           |
-| The bids belonging to the artwork are displayed with email and amount          | 1      |      |           |
-| The artwork and its bids are fetched from the server                           | 1      |      |           |
-| Total                                                                          | 4      | 2    |           |
+| The bids belonging to the artwork are displayed with email and amount          | 1      | 1    |           |
+| The artwork and its bids are fetched from the server                           | 1      | 1    |           |
+| Total                                                                          | 4      | 4    |           |
 
 | 3. Criteria - Giving hearts                                                                  | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -96,4 +96,4 @@
 | Student has regularly committed changes (at least 1 commit per feature)    | 0.5    | 0.5  |           |
 | Student has written clear commit messages                                  | 1      | 1    |           |
 | Student has pushed their repository using git                              | 0.5    | 0.5  |           |
-| Total                                                                      | 6      | 5    |           |
+| Total                                                                      | 6      | 6    |           |

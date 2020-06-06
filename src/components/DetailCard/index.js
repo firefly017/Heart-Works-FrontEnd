@@ -22,6 +22,8 @@ export default function DetailCard(props) {
       <button type="button" onClick={() => giveHeartClicked(props.id)}>
         Give Heart{" "}
       </button>
+      <br />
+      {/* Bids: {props.bids.email.amount} */}
     </div>
   );
 }
