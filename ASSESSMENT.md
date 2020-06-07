@@ -7,10 +7,10 @@
 | 2 Artwork details            | 4          | 4/4   | 0/4       |
 | 3 Giving hearts              | 5          | 5/5   | 0/5       |
 | 4 Bidding                    | 11         | 5/11  | 0/11      |
-| 5 Posting an artwork         | 10         | 4/10  | 0/10      |
+| 5 Posting an artwork         | 10         | 5/10  | 0/10      |
 | 6 Signing up as an artist    | 7          | 7/7   | 0/7       |
 | 7 Finishing up               | 6          | 6/6   | 0/6       |
-| Total                        | 60         | 48/60 | 0/60      |
+| Total                        | 60         | 49/60 | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -76,9 +76,9 @@
 | The auth middleware is used on the server side to authorize the request | 1      |      |           |
 | The POST request updates the database with input from the user          | 1      |      |           |
 | The artwork saved in the database has the correct `userId`              | 1      |      |           |
-| The user sees a success message if the artwork was posted successfully  | 1      |      |           |
+| The user sees a success message if the artwork was posted successfully  | 1      | 1    |           |
 | The success message is an alert, confirm or prompt popup or console.log | -1     |      |           |
-| Total                                                                   | 10     | 4    |           |
+| Total                                                                   | 10     | 5    |           |
 
 | 6. Criteria - Signing up as an artist                                              | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |

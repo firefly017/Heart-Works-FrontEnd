@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Auction() {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
+  function submitForm() {
+    console.log("Submitting the form");
+    setFormSubmitted(true);
+  }
+
+  if (formSubmitted) {
+    return <h3>Thank you for Submitting your art work!</h3>;
+  }
+
   return (
     <div>
       <h1>Start an auction!</h1>
@@ -22,7 +33,9 @@ export default function Auction() {
           <input type="url" name="img url" />
         </label>
         <br />
-        <button type="button">Start Auction </button>
+        <button type="button" onClick={submitForm}>
+          Start Auction{" "}
+        </button>
       </form>
     </div>
   );
