@@ -7,10 +7,10 @@
 | 2 Artwork details            | 4          | 4/4   | 0/4       |
 | 3 Giving hearts              | 5          | 5/5   | 0/5       |
 | 4 Bidding                    | 11         | 0/11  | 0/11      |
-| 5 Posting an artwork         | 10         | 3/10  | 0/10      |
+| 5 Posting an artwork         | 10         | 4/10  | 0/10      |
 | 6 Signing up as an artist    | 7          | 7/7   | 0/7       |
 | 7 Finishing up               | 6          | 6/6   | 0/6       |
-| Total                        | 60         | 42/60 | 0/60      |
+| Total                        | 60         | 43/60 | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -68,7 +68,7 @@
 | ----------------------------------------------------------------------- | ------ | ---- | --------- |
 | There is a link with `Start an auction` in the navbar                   | 0.5    | 0.5  |           |
 | A user can only see this link when you are logged in                    | 0.5    | 0.5  |           |
-| A user can only see this if the user object contains: `isArtist: true`  | 1      |      |           |
+| A user can only see this if the user object contains: `isArtist: true`  | 1      | 1    |           |
 | Clicking `Start an auction` links to a page with a form                 | 1      | 1    |           |
 | The form contains inputs for title, minimum bid & imageUrl              | 1      | 1    |           |
 | When the form is submitted a POST request is sent to the server         | 1      |      |           |
@@ -78,7 +78,7 @@
 | The artwork saved in the database has the correct `userId`              | 1      |      |           |
 | The user sees a success message if the artwork was posted successfully  | 1      |      |           |
 | The success message is an alert, confirm or prompt popup or console.log | -1     |      |           |
-| Total                                                                   | 10     | 3    |           |
+| Total                                                                   | 10     | 4    |           |
 
 | 6. Criteria - Signing up as an artist                                              | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |

@@ -9,9 +9,13 @@ import NavbarItem from "./NavbarItem";
 export default function LoggedIn() {
   const dispatch = useDispatch();
   const user = useSelector(selectUser);
+  const isArtist = user.isArtist;
+  const navPath = isArtist ? "/auction" : "";
+  const navText = isArtist ? "Start an auction" : "";
+  console.log("isArtist" + isArtist);
   return (
     <>
-      <NavbarItem path="/auction" linkText="Start an auction" />
+      <NavbarItem path={navPath} linkText={navText} />
 
       <Nav.Item style={{ padding: ".5rem 1rem" }}>{user.email}</Nav.Item>
       <Button onClick={() => dispatch(logOut())}>Logout</Button>
