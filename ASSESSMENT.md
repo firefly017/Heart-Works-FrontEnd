@@ -6,11 +6,11 @@
 | 1 Artworks list              | 7          | 7/7   | 0/7       |
 | 2 Artwork details            | 4          | 4/4   | 0/4       |
 | 3 Giving hearts              | 5          | 5/5   | 0/5       |
-| 4 Bidding                    | 11         | 0/11  | 0/11      |
+| 4 Bidding                    | 11         | 5/11  | 0/11      |
 | 5 Posting an artwork         | 10         | 4/10  | 0/10      |
 | 6 Signing up as an artist    | 7          | 7/7   | 0/7       |
 | 7 Finishing up               | 6          | 6/6   | 0/6       |
-| Total                        | 60         | 43/60 | 0/60      |
+| Total                        | 60         | 48/60 | 0/60      |
 
 | 0. Criteria - Migrations, models & seeds                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -51,18 +51,18 @@
 
 | 4. Criteria - Bidding                                                                   | Points | Self | Evaluator |
 | --------------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| When a user is logged in we can see an number input for amount and button to `Bid`      | 1      |      |           |
-| When the `Bid` button is pressed, it makes a POST request to the server                 | 1      |      |           |
-| When the `Bid` button is pressed, A value for amount and email are sent to the server   | 0.5    |      |           |
-| When the `Bid` button is pressed, A bid is created in the database                      | 0.5    |      |           |
-| The bid created in the database has the correct `artworkId`                             | 1      |      |           |
-| The new bid can be seen on the page                                                     | 1      |      |           |
+| When a user is logged in we can see an number input for amount and button to `Bid`      | 1      | 1    |           |
+| When the `Bid` button is pressed, it makes a POST request to the server                 | 1      | 1    |           |
+| When the `Bid` button is pressed, A value for amount and email are sent to the server   | 0.5    | 0.5  |           |
+| When the `Bid` button is pressed, A bid is created in the database                      | 0.5    | 0.5  |           |
+| The bid created in the database has the correct `artworkId`                             | 1      | 1    |           |
+| The new bid can be seen on the page                                                     | 1      | 1(?) |           |
 | An Authorization header is set in the request                                           | 1      |      |           |
 | The auth middleware is used on the server side to authorize the request                 | 1      |      |           |
 | The minimum value of the input for amount in the frontend is the highest bid amount + 1 | 1      |      |           |
 | If there are no bids yet the minimum value is the `minimumBid` value from the artwork   | 1      |      |           |
 | The backend validates that the new bid is the highest bid so far                        | 2      |      |           |
-| Total                                                                                   | 11     |      |           |
+| Total                                                                                   | 11     | 5    |           |
 
 | 5. Criteria - Posting an artwork                                        | Points | Self | Evaluator |
 | ----------------------------------------------------------------------- | ------ | ---- | --------- |

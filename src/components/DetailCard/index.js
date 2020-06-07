@@ -12,6 +12,7 @@ export default function DetailCard(props) {
     dispatch(giveHeart(id, hearts + 1));
     setHeart(hearts + 1);
   };
+
   console.log("loading detail card");
   return (
     <div>

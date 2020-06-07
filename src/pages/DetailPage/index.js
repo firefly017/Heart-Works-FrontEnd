@@ -6,6 +6,7 @@ import { getArtworks } from "../../store/artworks/selectors";
 import { fetchArtworks } from "../../store/artworks/actions";
 import DetailCard from "../../components/DetailCard";
 import BidsCard from "../../components/BidsCard";
+import NewBids from "../../components/NewBids";
 
 const DetailPage = (params) => {
   const dispatch = useDispatch();
@@ -36,6 +37,11 @@ const DetailPage = (params) => {
       {artworksToRender()}
       <br />
       {bidsToRender()}
+      <br />
+      <NewBids
+        key={route_parameters.artwork_id}
+        id={route_parameters.artwork_id}
+      />
     </div>
   );
 };

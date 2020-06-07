@@ -35,3 +35,30 @@ export const giveHeart = (artworksId, hearts) => async (dispatch, getState) => {
     console.log(error);
   }
 };
+export const makeABid = (artworksId, amount, email) => async (
+  dispatch,
+  getState
+) => {
+  try {
+    console.log(
+      "giveheart store id =" +
+        artworksId +
+        " email =" +
+        email +
+        " amount " +
+        amount
+    );
+    var bid = {};
+    bid.artworkId = artworksId;
+    bid.email = email;
+    bid.amount = amount;
+
+    await axios.post("http://localhost:4000/artworks/bid/", bid);
+
+    // make axios call to our endpoint
+    // dispatch saveArtworks.
+    //dispatch(saveArtworks(response.data));
+  } catch (error) {
+    console.log(error);
+  }
+};
