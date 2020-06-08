@@ -1,0 +1,18 @@
+caff06f		Sun Jun 7 20:15:39 2020 +0200	showing a success message on submitting an artwork
+1ef7b3a		Sun Jun 7 19:57:13 2020 +0200	handling new bid inputs
+7524b90		Sun Jun 7 12:43:39 2020 +0200	implementing "A user can only see this if the user object contains: `isArtist: true` " feature
+5d02554		Sun Jun 7 00:31:03 2020 +0200	making `Start an auction` page/link for logged in user only
+349fad1		Sat Jun 6 20:39:21 2020 +0200	displaying bids table with email and amount
+a9d7c2a		Sat Jun 6 14:57:03 2020 +0200	dealing with "give hearts" button, increasing number of likes
+0ed2d9b		Thu Jun 4 22:40:24 2020 +0200	handling "isArtist" checkbox
+7c4c3f5		Thu Jun 4 21:13:54 2020 +0200	displaying number of bids to homepage from database
+0cd8be7		Thu Jun 4 20:34:38 2020 +0200	creating a checkbox
+85793f5		Thu Jun 4 18:46:32 2020 +0200	making form to start an auction, setting up the navbar
+313f467		Thu Jun 4 18:19:34 2020 +0200	setting up "start an auction" link in the navbar
+9c10ee9		Thu Jun 4 18:00:28 2020 +0200	displaying detail page
+5364daa		Thu Jun 4 11:34:51 2020 +0200	showing images on homepage with view details button
+d88e814		Thu Jun 4 01:20:56 2020 +0200	making action, reducer and selectors for feature 1
+fae6faa		Wed Jun 3 19:17:32 2020 +0200	self-assessment and reflection for backend "criteria"
+9d9e9e6		Wed Jun 3 11:43:29 2020 +0200	making assessment, references and reflection files
+6b5ab84		Tue Jun 2 20:38:23 2020 +0200	setting up starter kit, installing dependencies
+17a4505		Tue Jun 2 20:15:56 2020 +0200	Initial commit

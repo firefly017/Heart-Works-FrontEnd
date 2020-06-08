@@ -41,6 +41,7 @@ const DetailPage = (params) => {
       <NewBids
         key={route_parameters.artwork_id}
         id={route_parameters.artwork_id}
+        allBids={bids}
       />
     </div>
   );

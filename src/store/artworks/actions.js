@@ -4,6 +4,10 @@ export const saveArtworks = (artworks) => ({
   type: "SAVE_ARTWORKS",
   payload: artworks, // => [{}, {}, {}]
 });
+export const addnewBid = (data) => ({
+  type: "ADD_BID",
+  payload: data, // => [{}, {}, {}]
+});
 
 export const fetchArtworks = () => async (dispatch, getState) => {
   try {
@@ -37,7 +41,7 @@ export const giveHeart = (artworksId, hearts) => async (dispatch, getState) => {
 };
 export const makeABid = (artworksId, amount, email) => async (
   dispatch,
-  getState
+  getState  //what is this??
 ) => {
   try {
     console.log(
@@ -52,9 +56,12 @@ export const makeABid = (artworksId, amount, email) => async (
     bid.artworkId = artworksId;
     bid.email = email;
     bid.amount = amount;
-
-    await axios.post("http://localhost:4000/artworks/bid/", bid);
-
+      console.log("what is getState", getState().user.token)
+    const response = await axios.post("http://localhost:4000/artworks/bid/", bid, {
+      headers: { Authorization: `Bearer ${getState().user.token}` },
+    });
+      dispatch(saveArtworks(response.data))
+      //dispatch(addnewBid(response.data))
     // make axios call to our endpoint
     // dispatch saveArtworks.
     //dispatch(saveArtworks(response.data));

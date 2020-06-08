@@ -5,3 +5,6 @@ Feature 3: ~The "give heart" button works good, but the backend takes some time 
 Feature 4: ~when adding a new bid, I have to refresh to see the new bid. getting error `SequelizeUniqueConstraintError` unless I provide explicitly the id for the new bid. to solve that, I provided the new id as total number of bids +1.  
 Feature 5: ~Just created a form and modified the "other" navbar link to make <start an auction> page => modified the page for logged in users and "isArtist:true" only.
 Feature 6: ~for creating "isArtist" migration, first added migration file and edited the seeder file, the seed file found the column to add the data, but when executing "findAll()" from routers, it didn't find the column. so to solve this, added the column to the model file.the rest of the part was comparetively easy.
+TEACHER_WORDCOUNT
+     390 REFLECTION.md
+TEACHER_WORDCOUNT
